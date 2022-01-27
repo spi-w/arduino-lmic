@@ -1,6 +1,13 @@
-# Arduino-LMIC library ("MCCI LoRaWAN LMIC Library")
+
+# Arduino-LMIC library ("MCCI LoRaWAN LMIC Library") **with low-power hack**
 
 [![GitHub release](https://img.shields.io/github/release/mcci-catena/arduino-lmic.svg)](https://github.com/mcci-catena/arduino-lmic/releases/latest) [![GitHub commits](https://img.shields.io/github/commits-since/mcci-catena/arduino-lmic/latest.svg)](https://github.com/mcci-catena/arduino-lmic/compare/v4.1.1...master) [![Arduino CI](https://img.shields.io/github/workflow/status/mcci-catena/arduino-lmic/Arduino%20CI)](https://github.com/mcci-catena/arduino-lmic/actions)
+
+**Hack:**
+
+Version de Arduino-LMIC prenant en compte les modifications proposé par [CongducPham](https://github.com/CongducPham/LMIC_low_power) pour pouvoir utiliser la librarie LowPower.
+
+Le hack ajoute de très légères modifications (voir [Readme](https://github.com/CongducPham/LMIC_low_power/blob/master/README.md) de CongducPham), qui ne devrait en rien affecter les mise à jours de la branche principale de LMIC.
 
 **Contents:**
 

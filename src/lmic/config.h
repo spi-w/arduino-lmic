@@ -220,4 +220,20 @@
 # define LMIC_ENABLE_arbitrary_clock_error 0	/* PARAM */
 #endif
 
+//////////////////
+//added by C. Pham
+#define LMIC_LOWPOWER
+//////////////////
+
+//////////////////
+//added by C. Pham, only for Single-Channel Gateway
+#define LMIC_SCG
+
+#ifdef LMIC_SCG
+//#ifndef DISABLE_INVERT_IQ_ON_RX
+//#define DISABLE_INVERT_IQ_ON_RX
+//#endif
+#endif
+//////////////////
+
 #endif // _lmic_config_h_
